@@ -1,0 +1,69 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "webAppName": {
+      "value": "sentia"
+    },
+    "virtualNetworkName": {
+      "value": "sentia-vnet-01"
+    },
+    "appGatewaySubnetName": {
+        "value": "sentia-appgw-subnet"
+      },
+      "appGatewayName": {
+          "value": "sentia-appgw"
+      },
+      "virtualNetworkAddressPrefix": {
+          "value": "10.0.0.0/20"
+      },
+      "publicIpAddressSku": {
+          "value": "Standard"
+      },
+      "publicIpAddressAllocationType": {
+          "value": "Static"
+      },
+      "virtualNetworkSubnetPrefix": {
+          "value": "10.0.0.0/24"
+      },
+      "webAppPlanSku": {
+          "value": "S1"
+      },
+      "applicationGatewaySkuSize": {
+          "value": "Standard_v2"
+      },
+      "applicationGatewayTier": {
+          "value": "Standard_v2"
+      },
+      "applicationGatewayAutoScaleMinCapacity": {
+          "value": 2
+      },
+      "applicationGatewayAutoScaleMaxCapacity": {
+          "value": 5
+      },
+      "primaryRegion": {
+          "value": "west europe"
+      },
+      "secondaryRegion": {
+          "value": "north europe"
+      },
+       "defaultConsistencyLevel": {
+           "value": "Session"
+       },
+       "serverVersion": {
+           "value": "4.0"
+       },
+       "databaseName": {
+           "value": "sentia-mongodb"
+       },
+       "collection1Name": {
+           "value": "sentia-mongodb-coll1"
+       },
+       "collection2Name": {
+           "value": "sentia-mongodb-coll2"
+       }
+ 
+     
+
+  }
+}

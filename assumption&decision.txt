@@ -1,0 +1,7 @@
+App Service will be the good solution for this and can have web jobs to run the cron jobs. Interation with Mongodb can be done directly by cosmos db api. To provide security  we are using the Application gateway so that the app service is not accesasble. I also want to use the private endpoint to make the solution more secure. certificates can be stored in key vault. Elastic Search feature of Azure can be used for the requirement of ElasticSearch CLuster and Kibana dashboards. Azure Monitor and Application Insights can be used for monitoring the applicaitona and generating alerts.
+
+With this solution we the application is scalable using all the managed services no infra components are used. I have tried to used the parameterized template so that the infra can remain flexible and we can have multiple paramerter files depending on the basis of environment. 
+
+Currently I have created the complete infra in a single file but we can use the module feature that would help in reuse of code.
+
+

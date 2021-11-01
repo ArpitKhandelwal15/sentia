@@ -1,0 +1,7 @@
+architectural design  -- started on 24Oct 2 hr
+architectural design  -- minor changes 29th Oct 1hr 
+IaC -- 	30th Oct 4 hr created app service and plan .. application gateway
+IaC --  continue on 31st Oct 2 hr integration / linked with Private end point 
+Iac --  finilization on 1st Nov 3 hr linked with storage for file and connect to mongodb
+
+
